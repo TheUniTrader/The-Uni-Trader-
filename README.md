@@ -1,2 +1,2 @@
-# Henry-Regan-Elson-Trading-Journal.github.io
+# The Uni Trader 
 Henry Regan-Elson Trading Journal 
