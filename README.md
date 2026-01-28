@@ -1,2 +1,2 @@
-# The Uni Trader 
-Henry Regan-Elson Trading Journal 
+# Henry Regan-Elson Trading Journal 
+
