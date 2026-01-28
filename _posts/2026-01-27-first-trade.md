@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "MNQ January"
 date: 2026-01-27
 ---
