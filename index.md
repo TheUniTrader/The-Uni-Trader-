@@ -7,4 +7,6 @@ title: Trading Journal
 
 ## Trading Logs
 
+### January 
+
 
