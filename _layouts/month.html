@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.month | date: "%B %Y" }}</title>
+</head>
+<body>
+
+<a href="/">← Back to months</a>
+
+<h1>{{ page.month | date: "%B %Y" }}</h1>
+
+<ul>
+{% for trade in site.trades %}
+  {% assign trade_month = trade.date | date: "%Y-%m" %}
+  {% if trade_month == page.month %}
+    <li>
+      <a href="{{ trade.url }}">
+        {{ trade.date | date: "%d %B %Y" }}
+      </a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+</body>
+</html>
